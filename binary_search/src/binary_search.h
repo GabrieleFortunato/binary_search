@@ -99,12 +99,14 @@ void print_number(FILE* file, int number);
  * Verifica la presenza di un numero nell'array di dimensione
  * stabilita dal parametro length
  * @pre il parametro length deve essere maggiore di 0
+ * @pre gli elementi dell'array devono essere ordinati in maniera crescente
  * @param array
- * @param length
+ * @param min
+ * @param max
  * @param number
  * @return
  */
-bool binary_search(int* array, int max, int number, int number);
+bool binary_search(int* array, int min, int max, int number);
 
 /**
  * Stampa su file il risultato della ricerca
