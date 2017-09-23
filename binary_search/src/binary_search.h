@@ -116,7 +116,7 @@ bool binary_search(int* array, int min, int max, int number);
  * @param length
  * @param number
  */
-void print_search_result(FILE* file,int* array, int length, int number);
+void print_search_result(FILE* file, int* array, int length, int number);
 
 
 #endif /* BINARY_SEARCH_H_ */
