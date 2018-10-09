@@ -8,24 +8,6 @@
 #ifndef BINARY_SEARCH_H_
 #define BINARY_SEARCH_H_
 
-#include <assert.h>
-#include <stdbool.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-#define ZERO   		     0
-#define ONE  		     1
-#define MAX_LENGTH       20
-#define MAX_NUMBER       100
-#define PRINT_ARRAY      "\nArray generato: "
-#define PRINT_ELEMENT    "%d "
-#define PRINT_NUMBER     "\nNumero da cercare nell'array: %d "
-#define PRINT_FOUND      "\nNumero presente nell'array\n"
-#define PRINT_NOT_FOUND  "\nNumero non presente nell'array\n"
-#define FILE_NAME        "linear_search.txt"
-#define FILE_MODE        "w"
-
 /**
  * Assicura che ad ogni lancio il programma generi
  * in modo casuale numeri sempre diversi
