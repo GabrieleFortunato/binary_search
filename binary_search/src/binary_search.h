@@ -29,7 +29,7 @@ int get_length();
  * @param length
  * @return
  */
-bool ordered_array(int* array, int length);a
+bool ordered_array(int* array, int length);
 
 /**
  * Ordina in maniera crescente gli elementi dell'array di dimensione
